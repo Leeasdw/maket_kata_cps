@@ -202,7 +202,7 @@ body {
   width:320px;
   height:210px;
   margin-top:14px;
-  background: url('/img/main_logo.png') no-repeat;
+  background: url('img/main_logo.png') no-repeat;
 }
 
 .main__title__left {
