@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'TTLakes';
-    src: url(/fonts/TTLakes-Regular.ttf) format('ttf'), url(/fonts/TTLakes-Regular.woff) format('woff');
+    src: url(/fonts/TTLakes-Regular.ttf) format('ttf'), url(fonts/TTLakes-Regular.woff) format('woff');
     font-weight: 400;
   }
   
   @font-face {
     font-family: 'TTLakes';
-    src: url(/fonts/TTLakes-Bold.ttf) format('ttf'), url(/fonts/TTLakes-Bold.woff) format('woff');
+    src: url(/fonts/TTLakes-Bold.ttf) format('ttf'), url(fonts/TTLakes-Bold.woff) format('woff');
     font-weight: 700;
   }
 
   @font-face {
     font-family: 'TTLakes';
-    src: url(/fonts/TTLakes-Medium.ttf) format('ttf'), url(/fonts/TTLakes-Medium.woff) format('woff');
+    src: url(/fonts/TTLakes-Medium.ttf) format('ttf'), url(fonts/TTLakes-Medium.woff) format('woff');
     font-weight: 500;
   }
 
   @font-face {
     font-family: 'TTLakes';
-    src: url(/fonts/TTLakes-DemiBold.ttf) format('ttf'), url(/fonts/TTLakes-DemiBold.woff) format('woff');
+    src: url(/fonts/TTLakes-DemiBold.ttf) format('ttf'), url(fonts/TTLakes-DemiBold.woff) format('woff');
     font-weight: 600;
   }
 * {
@@ -82,7 +82,7 @@ body {
   height:40px;
   width:4px;
   text-align: left;
-  background-image: url('/img/border.svg');
+  background-image: url('img/border.svg');
 }
 
 .main_title--title--text {
@@ -252,7 +252,7 @@ body {
       margin-right:24px;
       margin-left:30px;
       border-radius:2%;
-      background: url('/img/main_logo_768.png') no-repeat;
+      background: url('img/main_logo_768.png') no-repeat;
 
   }
   .main__logo--image--320 {
@@ -411,7 +411,7 @@ body {
       margin-right:27px;
       margin-left:15px;
       border-radius:1.65%;
-      background: url('/img/main_logo_1120.png') no-repeat;
+      background: url('img/main_logo_1120.png') no-repeat;
 
   }
 
