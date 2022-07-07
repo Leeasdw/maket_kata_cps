@@ -212,7 +212,7 @@ body {
   align-items:center;
 }
 
-@media (max-width:320px) {
+@media (max-width:767px) {
     overflow-x:scroll;
 }
 /* Screen 768 to 1120 */
