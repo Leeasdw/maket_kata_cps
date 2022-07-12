@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="test.css"
+    />
+
+    <!-- Demo styles -->
+   
+      
+
+  </head>
+
+  <body>
+    <div class="slider">
+
+        <div class="slider__border"></div>
+
+        <div class="slider__header">
+            <p class="slider__header--text">Ремонт техники различных брендов</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="slider__main--element swiper-slide">
+                  <img class="main__element-img" src="/img/slider/lenovo.svg" alt="lenovo">
+                  <a href='#'class="element--svg">
+                      <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                  </a>
+              </div>
+              <div class="slider__main--element swiper-slide">
+                <img class="main__element-img" src="/img/slider/samsung.svg" alt="samsung">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" >
+                <img class="main__element-img" src="/img/slider/apple.svg" alt="apple">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" >
+                <img class="main__element-img" src="/img/slider/viewsonic.svg" alt="viewsonic">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide">
+                <img class="main__element-img" src="/img/slider/bosch.svg" alt="bosch">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" >
+                <img class="main__element-img" src="/img/slider/hp.svg" alt="hp">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" hidden>
+                <img class="main__element-img" src="/img/slider/acer.svg" alt="acer">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" hidden>
+                <img class="main__element-img" src="/img/slider/sony.svg" alt="sony">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+            <div class="slider__main--element swiper-slide" hidden>
+                <img class="main__element-img" src="/img/slider/lenovo.svg" alt="lenovo">
+                <a href='#'class="element--svg">
+                    <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+                </a>
+            </div>
+
+            <div class="slider__main--element swiper-slide" hidden>
+              <img class="main__element-img" src="/img/slider/samsung.svg" alt="samsung">
+              <a href='#'class="element--svg">
+                  <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+              </a>
+          </div>
+          <div class="slider__main--element swiper-slide" hidden>
+              <img class="main__element-img" src="/img/slider/apple.svg" alt="apple">
+              <a href='#'class="element--svg">
+                  <img class="element--arrow" src="/img/slider/arrow.svg" alt="">
+              </a>
+          </div>
+
+
+        
+            
+            </div>
+            <div class="swiper-pagination">
+
+            <!-- <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+                <div class="swiper-pagination-bullet swiper-pagination-bullet-active"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+                <div class="swiper-pagination-bullet"></div>
+            </div> -->
+          </div>
+
+
+          <div class="main__further">
+            <div class="main__further--logo">
+                <img class="main__further--logo--img" src="/img/further_logo.svg" alt="further">
+            </div>
+            <div class="main__further--text">
+                <button type="button" class="main__further--text--link">Показать все</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="test.js"></script>
+
+
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+  </body>
+</html>
