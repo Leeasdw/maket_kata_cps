@@ -82,7 +82,7 @@ body {
   height:40px;
   width:4px;
   text-align: left;
-  background-image: url('/img/border.svg');
+  background-image: url('img/border.svg');
 }
 
 .main_title--title--text {
@@ -207,7 +207,7 @@ body {
   width:320px;
   height:210px;
   margin-top:14px;
-  background: url('/img/main_logo.png') no-repeat;
+  background: url('img/main_logo.png') no-repeat;
 }
 
 .main__title__left {
@@ -270,7 +270,7 @@ body {
       margin-right:24px;
       margin-left:30px;
       border-radius:2%;
-      background: url('/img/main_logo_768.png') no-repeat;
+      background: url('img/main_logo_768.png') no-repeat;
 
   }
   .main__logo--image--320 {
@@ -429,7 +429,7 @@ body {
       margin-right:27px;
       margin-left:15px;
       border-radius:1.65%;
-      background: url('/img/main_logo_1120.png') no-repeat;
+      background: url('img/main_logo_1120.png') no-repeat;
 
   }
 
