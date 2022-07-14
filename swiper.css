@@ -217,6 +217,13 @@ body {
   display: none;
 }
 
+[hidden] {
+  display:none;
+}
+
+.slider__main--element:nth-child(7), .slider__main--element:nth-child(8),.slider__main--element:nth-child(9) {
+  display:inherit;
+}
 
 
 /* 768 PX!!!!!!!!!!!!! */
@@ -337,7 +344,13 @@ body {
     row-gap: 0px;
 
   }
+
+  .slider__main--element:nth-child(7), .slider__main--element:nth-child(8),.slider__main--element:nth-child(9) {
+    display:none;
+  }
 }
+
+
 
 
 
@@ -349,12 +362,20 @@ body {
 
 @media (min-width:1120px) {
 
+  .slider__main--element:nth-child(9) {
+    display:none;
+  }
+  
+
 [hidden] {
-  display: none;
+  display: none ;
 }
 
 .hiden {
-  display: inherit;
+  display: inherit !important;
+}
+.slider__main--element:nth-child(9){
+  display:none;
 }
 
   .slider__main--element:nth-child(7), .slider__main--element:nth-child(8) {

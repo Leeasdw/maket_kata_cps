@@ -14,31 +14,35 @@ const mq = window.matchMedia( "(min-width: 768px)" );
 // }
 
 
-btnMore.addEventListener('click', function(){
-    let swiper = document.querySelector('.swiper');
-    const initialText = 'Показать все';
+btnMore.addEventListener("click", function () {
+  let swiper = document.querySelector(".swiper");
+  const initialText = "Показать все";
 
-    if (btnMore.textContent.toLowerCase().includes(initialText.toLowerCase())) {
-        btnMore.textContent = 'Скрыть';
-        btnMore.style.marginTop = "40px"
-        btnMore.style.marginLeft = "-3px"
-        btnMoreImg.style.marginTop = "45px";
-        btnMoreImg.style.transform = "rotate(180deg)";
-      } else {
-        btnMore.textContent = initialText;
-        btnMore.style.marginTop = "0px"
-        btnMore.style.marginLeft = "0x"
-        btnMoreImg.style.marginTop = "7px";
-        btnMoreImg.style.transform = "rotate(0deg)";
-      }
+  if (btnMore.textContent.toLowerCase().includes(initialText.toLowerCase())) {
+    btnMore.textContent = "Скрыть";
+    btnMore.style.marginTop = "40px";
+    btnMore.style.marginLeft = "-3px";
+    btnMoreImg.style.marginTop = "45px";
+    btnMoreImg.style.transform = "rotate(180deg)";
+  } else {
+    btnMore.textContent = initialText;
+    btnMore.style.marginTop = "0px";
+    btnMore.style.marginLeft = "0x";
+    btnMoreImg.style.marginTop = "7px";
+    btnMoreImg.style.transform = "rotate(0deg)";
+  }
   
-    swiper.classList.toggle('swiper--hidden');
-    for (let i = 6;i<12;i++) {
-        slide[i].classList.toggle('hiden');
-    }
-
-    
-})
+  // if (slide[9].style.display === "none" && screen.width < 1120) {
+  //   slide[9].style.display = "block";
+  // } else {
+  //   slide[9].style.display = "none";
+  // }
+  
+  swiper.classList.toggle("swiper--hidden");
+  for (let i = 6; i < 12; i++) {
+    slide[i].classList.toggle("hiden");
+  }
+});
 
 
 /// remove class mySwiper на 1120;
